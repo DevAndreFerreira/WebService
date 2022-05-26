@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Adição de valores de entrada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/model/response/UserRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Adição de entrada por xml e json">
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653527777781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adição de entrada por xml e json">
+      <created>1653528609851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653528609851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Adição de valores de entrada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição de valores de entrada" />
+    <MESSAGE value="Adição de entrada por xml e json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição de entrada por xml e json" />
   </component>
 </project>
