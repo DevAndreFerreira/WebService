@@ -1,14 +1,19 @@
 package br.com.estudo.webservice.controller;
 
 import org.springframework.web.bind.annotation.*;
-
 @RestController
 @RequestMapping("users")
 public class UserController {
 
+    @GetMapping(path = "/{userId}")
+    public String getUser(@PathVariable String userId) {
+        return "Get user was called with = " + userId;
+    }
     @GetMapping
-    public String oláMundo() {
-        return "Get user was called";
+    public String getUsers(@RequestParam(value = "page", defaultValue = "1") Integer page,
+                           @RequestParam(value = "limit", defaultValue = "1",required = false) Integer limit,
+                           @RequestParam(value = "sort", required = false) Integer sort) {
+        return "Get user was called with page = " + page + " limit " + limit + " sort " + sort;
     }
 
     @PostMapping
