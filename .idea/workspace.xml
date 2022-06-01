@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Adição do delete">
+    <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Criação de uma handler personalizado para retornar mensagem de campo inválido">
       <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/exceptions/AppExceptionsHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/model/response/ErrorMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654048376978</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Criação de uma handler personalizado para retornar mensagem de campo inválido">
+      <created>1654051443177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654051443177</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,14 +164,15 @@
     <MESSAGE value="Adição de entrada por xml e json" />
     <MESSAGE value="Criação de retornos" />
     <MESSAGE value="Adição do delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição do delete" />
+    <MESSAGE value="Criação de uma handler personalizado para retornar mensagem de campo inválido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de uma handler personalizado para retornar mensagem de campo inválido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/exceptions/AppExceptionsHandler.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
