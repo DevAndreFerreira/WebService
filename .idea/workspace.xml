@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Adição de entrada por xml e json">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/model/request/UpdateUserDetailRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/model/request/UserDetailsRequestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/model/response/UserRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/model/response/UserRest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Criação de retornos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653528978375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criação de retornos">
+      <created>1654047845798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654047845798</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +130,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Adição de valores de entrada" />
     <MESSAGE value="Adição de entrada por xml e json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição de entrada por xml e json" />
+    <MESSAGE value="Criação de retornos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de retornos" />
   </component>
 </project>
