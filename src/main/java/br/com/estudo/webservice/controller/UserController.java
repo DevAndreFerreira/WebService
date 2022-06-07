@@ -1,8 +1,11 @@
 package br.com.estudo.webservice.controller;
 
+import br.com.estudo.webservice.exceptions.UserServiceException;
 import br.com.estudo.webservice.model.request.UpdateUserDetailRequestModel;
 import br.com.estudo.webservice.model.request.UserDetailsRequestModel;
 import br.com.estudo.webservice.model.response.UserRest;
+import br.com.estudo.webservice.service.impl.UserServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -20,8 +23,14 @@ public class UserController {
 
     private Map<String, UserRest> users;
 
+    @Autowired
+    private UserServiceImpl userService;
+
     @GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE })
     public ResponseEntity<UserRest> getUser(@PathVariable String userId) {
+
+        if(true) throw new UserServiceException("A user service exception is thrown");
+
         if(users.containsKey(userId)) {
             return new ResponseEntity<UserRest>(users.get(userId), HttpStatus.OK);
         } else {
@@ -40,18 +49,9 @@ public class UserController {
                               MediaType.APPLICATION_JSON_VALUE},
                 produces = {  MediaType.APPLICATION_XML_VALUE,
                               MediaType.APPLICATION_JSON_VALUE})
-    public UserRest createUser(@Valid @RequestBody UserDetailsRequestModel userDetails) {
-        UserRest returnValue = new UserRest();
-        returnValue.setFirstName(userDetails.getFirstName());
-        returnValue.setLastName(userDetails.getLastName());
-        returnValue.setPassword(userDetails.getPassword());
-        returnValue.setEmail(userDetails.getEmail());
-        String userId = UUID.randomUUID().toString();
-        returnValue.setUserId(userId);
-        if(users == null) users = new HashMap<>();
-        users.put(userId, returnValue);
-
-        return returnValue;
+    public ResponseEntity<UserRest> createUser(@Valid @RequestBody UserDetailsRequestModel userDetails) {
+        UserRest user = userService.createUser(userDetails);
+        return new ResponseEntity<UserRest>(user, HttpStatus.OK);
     }
 
     @PutMapping(path = "/{userId}",
