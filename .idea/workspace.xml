@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b439d853-d9aa-4f1a-b4d5-913da58c2800" name="Changes" comment="Criação de uma handler personalizado para retornar mensagem de campo inválido">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/GeralErroDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/shared/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/exceptions/AppExceptionsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/exceptions/AppExceptionsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/estudo/webservice/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654563316477</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Criação de uma handler personalizado para retornar mensagem de campo inválido">
+      <created>1655167115334</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655167115334</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
